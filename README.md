@@ -1,7 +1,7 @@
-# nup_pdf.py
+# 2up.py
 ### Multi-PDF N-Up Generator (2-up / 4-up, vector-safe)
 
-`nup_pdf.py` is a powerful, production-ready tool for generating **2-up** and **4-up** PDF layouts without rasterization. It is designed for printing manuals, duplicating pages, placing multiple PDFs on one sheet, and preparing documents for booklet-style cutting.
+`2up.py` is a powerful, production-ready tool for generating **2-up** and **4-up** PDF layouts without rasterization. It is designed for printing manuals, duplicating pages, placing multiple PDFs on one sheet, and preparing documents for booklet-style cutting.
 
 The program uses **pypdf** and preserves full **vector content**—text remains searchable, graphics remain crisp, and file sizes stay small.
 
@@ -29,7 +29,7 @@ The program uses **pypdf** and preserves full **vector content**—text remains 
 Running:
 
 ```
-python nup_pdf.py
+python 2up.py
 ```
 
 Performs the following:
@@ -60,7 +60,7 @@ This mode is optimized for your daily manual-production workflow.
 To bypass the automatic search and specify PDFs manually:
 
 ```
-python nup_pdf.py --manual-inputs
+python 2up.py --manual-inputs
 ```
 
 You may then:
